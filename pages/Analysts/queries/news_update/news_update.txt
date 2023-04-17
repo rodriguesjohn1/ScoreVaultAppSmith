@@ -1,6 +1,6 @@
 {
-    "author_first":{{News_Form.formData.author_first}},
-    "author_last":{{News_Form.formData.author_last}}
+    "author_first":{{News_Form.formData.first_name}},
+    "author_last":{{News_Form.formData.last_name}}
 		"news_date": {{News_Form.formData.news_date}}
 		"description":{{News_Form.formData.description}}
 		"outlet": {{News_Form.formData.outlet}}

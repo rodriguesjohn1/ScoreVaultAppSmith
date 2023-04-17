@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"author_first\":{{News_Form.formData.author_first}},\n    \"author_last\":{{News_Form.formData.author_last}}\n\t\t\"news_date\": {{News_Form.formData.news_date}}\n\t\t\"description\":{{News_Form.formData.description}}\n\t\t\"outlet\": {{News_Form.formData.outlet}}\n\t\t\"title\": {{News_Form.formData.title}}\n}",
+      "body": "{\n    \"author_first\":{{News_Form.formData.first_name}},\n    \"author_last\":{{News_Form.formData.last_name}}\n\t\t\"news_date\": {{News_Form.formData.news_date}}\n\t\t\"description\":{{News_Form.formData.description}}\n\t\t\"outlet\": {{News_Form.formData.outlet}}\n\t\t\"title\": {{News_Form.formData.title}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -56,9 +56,9 @@
     "messages": [],
     "jsonPathKeys": [
       "News.selectedRow.news_id",
-      "News_Form.formData.author_first",
-      "News_Form.formData.author_last",
       "News_Form.formData.description",
+      "News_Form.formData.first_name",
+      "News_Form.formData.last_name",
       "News_Form.formData.news_date",
       "News_Form.formData.outlet",
       "News_Form.formData.title"
