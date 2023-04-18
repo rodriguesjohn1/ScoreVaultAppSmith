@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"home_score\": {{GameAdd.data.home_score}},\n    \"away_score\": {{GameAdd.data.away_score}},\n    \"home_team\": {{GameAdd.data.home_team}},\n    \"away_team\": {{GameAdd.data.away_team}},\n    \"game_date\": {{GameAdd.data.game_date}},\n    \"venue\": {{GameAdd.data.venue}}\n}",
+      "body": "{\n    \"home_score\": {{GameAdd.data.home_score}},\n    \"away_score\": {{GameAdd.data.away_score}},\n    \"home_team\": {{GameAdd.data.home_team}},\n    \"away_team\": {{GameAdd.data.away_team}},\n    \"game_date\": {{GameAdd.data.game_date}},\n    \"venue\": {{GameAdd.data.venue}}\n}\n",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
