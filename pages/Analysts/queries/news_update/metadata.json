@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/a/players/{{News.selectedRow.news_id}}"
+        "url": "web:4000/a/news/{{News_Form.data.news_id}}"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"author_first\":{{News_Form.formData.first_name}},\n    \"author_last\":{{News_Form.formData.last_name}}\n\t\t\"news_date\": {{News_Form.formData.news_date}}\n\t\t\"description\":{{News_Form.formData.description}}\n\t\t\"outlet\": {{News_Form.formData.outlet}}\n\t\t\"title\": {{News_Form.formData.title}}\n}",
+      "body": "{\n    \"author_first\":{{News_Form.data.author_first_name}},\n    \"author_last\":{{News_Form.data.last_name}},\n\t\t\"news_date\": {{News_Form.data.date}},\n\t\t\"news_id\": {{News_Form.data.news_id}},\n\t\t\"article_description\":{{News_Form.data.article_description}},\n\t\t\"outlet\": {{News_Form.data.outlet}},\n\t\t\"title\": {{News_Form.data.title}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -55,13 +55,13 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "News.selectedRow.news_id",
-      "News_Form.formData.description",
-      "News_Form.formData.first_name",
-      "News_Form.formData.last_name",
-      "News_Form.formData.news_date",
-      "News_Form.formData.outlet",
-      "News_Form.formData.title"
+      "News_Form.data.article_description",
+      "News_Form.data.author_first_name",
+      "News_Form.data.date",
+      "News_Form.data.last_name",
+      "News_Form.data.news_id",
+      "News_Form.data.outlet",
+      "News_Form.data.title"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
