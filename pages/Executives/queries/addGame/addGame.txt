@@ -1,0 +1,8 @@
+{
+    "home_score": {{GameAdd.data.home_score}},
+    "away_score": {{GameAdd.data.away_score}},
+    "home_team": {{GameAdd.data.home_team}},
+    "away_team": {{GameAdd.data.away_team}},
+    "game_date": {{GameAdd.data.game_date}},
+    "venue": {{GameAdd.data.venue}}
+}
