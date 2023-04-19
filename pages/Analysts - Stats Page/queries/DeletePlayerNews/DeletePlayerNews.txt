@@ -1,0 +1,3 @@
+{
+	"news_id": {{PlayerNews.data[0].news_id}}
+}

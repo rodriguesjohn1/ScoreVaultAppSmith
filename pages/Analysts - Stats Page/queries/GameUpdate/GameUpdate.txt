@@ -1,0 +1,4 @@
+{
+	"home_score": {{homeScore.text}},
+	"away_score": {{awayScore.text}}
+}

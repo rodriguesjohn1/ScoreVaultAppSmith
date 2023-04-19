@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Analysts",
+      "id": "Analysts - Stats Page",
       "isDefault": true
+    },
+    {
+      "id": "Analysts - News Page",
+      "isDefault": false
     },
     {
       "id": "Executives",

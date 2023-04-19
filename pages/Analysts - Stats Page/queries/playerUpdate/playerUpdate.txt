@@ -1,0 +1,4 @@
+{
+    "assists":{{Assists.text}},
+    "goals":{{Goals.text}}
+}

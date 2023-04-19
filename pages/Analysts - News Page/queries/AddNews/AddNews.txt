@@ -1,0 +1,8 @@
+{
+    "article_description": {{A_desc.text}},
+    "author_first": {{a_first.text}},
+    "author_last": {{A_last.text}},
+    "news_date": {{DatePicker1.formattedDate}},
+    "outlet": {{Outlet.text}},
+    "title": {{title.text}}
+  },

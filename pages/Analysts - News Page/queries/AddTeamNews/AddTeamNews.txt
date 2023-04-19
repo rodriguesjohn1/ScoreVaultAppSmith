@@ -1,0 +1,3 @@
+{
+	"news_id": {{NewsTable.selectedRow.news_id}}
+}
