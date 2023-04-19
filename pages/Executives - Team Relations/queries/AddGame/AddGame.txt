@@ -1,0 +1,6 @@
+{
+	"home_team": {{HomeTeam.selectedOptionValue}},
+	"away_team": {{AwayTeam.selectedOptionValue}},
+	"game_date": {{GameData.formattedDate}},
+	"venue": {{Venue.selectedOptionValue}}
+}
