@@ -1,0 +1,9 @@
+{
+    "author_first":{{News_Form.data.author_first_name}},
+    "author_last":{{News_Form.data.last_name}},
+		"news_date": {{News_Form.data.date}},
+		"news_id": {{News_Form.data.news_id}},
+		"article_description":{{News_Form.data.article_description}},
+		"outlet": {{News_Form.data.outlet}},
+		"title": {{News_Form.data.title}}
+}

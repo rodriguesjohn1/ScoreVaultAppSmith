@@ -1,0 +1,4 @@
+{
+    "assists":{{Player_Form.formData.assists}},
+    "goals":{{Player_Form.formData.goals}}
+}
