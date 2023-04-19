@@ -13,7 +13,13 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#E4D8CC",
-  "icon": "pizza",
+  "icon": "basketball",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
