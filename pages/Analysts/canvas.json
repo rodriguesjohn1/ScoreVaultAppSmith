@@ -75,7 +75,7 @@
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 1,
+              "leftColumn": 2,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -466,7 +466,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681747453591,
-              "originalBottomRow": 94,
+              "originalBottomRow": 100,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -628,7 +628,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 66,
+              "originalTopRow": 72,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
