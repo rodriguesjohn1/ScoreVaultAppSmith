@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "ClubsStadium",
+    "name": "GetGames",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/a/stadiums/{{Clubs.selectedRow.stadium}}"
+        "url": "web:4000/e/games/club/{{TeamsTable.selectedRow.team_name}}"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Analysts - Stats Page",
+    "pageId": "Executives - Team Relations",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "datasourceUrl"
@@ -46,14 +46,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Clubs.selectedRow.stadium"
+      "TeamsTable.selectedRow.team_name"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Analysts - Stats Page_ClubsStadium",
+  "id": "Executives - Team Relations_GetGames",
   "deleted": false,
-  "gitSyncId": "643f4b4a7861a56b304d56a4_643f5e0a7861a56b304d56dd"
+  "gitSyncId": "643f4b4a7861a56b304d56a4_64402d6a046ef1717e3e691e"
 }

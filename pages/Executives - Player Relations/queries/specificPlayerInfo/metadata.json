@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getSpecificGames",
+    "name": "specificPlayerInfo",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/e/games/3"
+        "url": "web:4000/e/players/{{GetPlayers.selectedRow.player_id}}"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Executives",
+    "pageId": "Executives - Player Relations",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,18 +36,24 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "datasourceUrl"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "GetPlayers.selectedRow.player_id"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Executives_getSpecificGames",
+  "id": "Executives - Player Relations_specificPlayerInfo",
   "deleted": false,
-  "gitSyncId": "643d8ffee993e222fcdffa9e_643d9c44e993e222fcdffabe"
+  "gitSyncId": "643d8ffee993e222fcdffa9e_643d99e2e993e222fcdffab8"
 }

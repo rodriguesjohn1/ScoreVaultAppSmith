@@ -2,15 +2,23 @@
   "pages": [
     {
       "id": "Analysts - Stats Page",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Analysts - News Page",
       "isDefault": false
     },
     {
-      "id": "Executives",
+      "id": "Executives - Player Relations",
       "isDefault": false
+    },
+    {
+      "id": "Executives - Team Relations",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": true
     }
   ],
   "viewMode": false,

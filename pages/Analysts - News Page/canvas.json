@@ -2,6 +2,7 @@
   "unpublishedPage": {
     "name": "Analysts - News Page",
     "slug": "analysts-news-page",
+    "customSlug": "news",
     "layouts": [
       {
         "viewMode": false,
@@ -943,7 +944,7 @@
               "originalBottomRow": 17
             },
             {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
@@ -955,12 +956,6 @@
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
                 },
                 {
                   "key": "tableData"
@@ -1021,7 +1016,7 @@
                   "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
               },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "columnUpdatedAt": 1681880614032,
               "originalBottomRow": 92,
               "defaultSelectedRowIndices": [

@@ -1,0 +1,13 @@
+{
+    "age": {{AgeInput.text}},
+    "assists": "0",
+    "firstName": {{FirstNameInput.text}},
+    "goals": "0",
+    "internationalTeam": {{IntlTeamInput.text.length === 0 ? "null" : IntlTeamInput.text}},
+    "lastName": {{LastNameInput.text}},
+    "club": {{ClubSelect.selectedOptionValue.length === 0 ? "null" : ClubSelect.selectedOptionValue}},
+    "position": {{Position.selectedOptionValue}},
+    "jerseyNumber": {{JerseyInput.text}},
+    "nationality": {{NationalityInput.text}},
+    "contractEndDate": {{contractpick.formattedDate}}
+  }

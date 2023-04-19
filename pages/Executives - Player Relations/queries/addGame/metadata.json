@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "addPlayer",
+    "name": "addGame",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/e/players"
+        "url": "web:4000/e/games"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Executives",
+    "pageId": "Executives - Player Relations",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"age\": {{AddNewPlayer.data.age}},\n    \"assists\": {{AddNewPlayer.data.assists}},\n    \"firstName\": {{AddNewPlayer.data.firstName}},\n    \"goals\": {{AddNewPlayer.data.goals}},\n    \"internationalTeam\": {{AddNewPlayer.data.internationalTeam}},\n    \"lastName\": {{AddNewPlayer.data.lastName}},\n    \"club\": {{AddNewPlayer.data.club}},\n    \"position\": {{AddNewPlayer.data.position}},\n    \"jerseyNumber\": {{AddNewPlayer.data.jerseyNumber}},\n    \"nationality\": {{AddNewPlayer.data.nationality}},\n    \"contractEndDate\": {{AddNewPlayer.data.contractEndDate}}\n  }",
+      "body": "{\n    \"home_score\": {{GameAdd.data.home_score}},\n    \"away_score\": {{GameAdd.data.away_score}},\n    \"home_team\": {{GameAdd.data.home_team}},\n    \"away_team\": {{GameAdd.data.away_team}},\n    \"game_date\": {{GameAdd.data.game_date}},\n    \"venue\": {{GameAdd.data.venue}}\n}\n",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -52,24 +52,19 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "AddNewPlayer.data.age",
-      "AddNewPlayer.data.assists",
-      "AddNewPlayer.data.club",
-      "AddNewPlayer.data.contractEndDate",
-      "AddNewPlayer.data.firstName",
-      "AddNewPlayer.data.goals",
-      "AddNewPlayer.data.internationalTeam",
-      "AddNewPlayer.data.jerseyNumber",
-      "AddNewPlayer.data.lastName",
-      "AddNewPlayer.data.nationality",
-      "AddNewPlayer.data.position"
+      "GameAdd.data.away_score",
+      "GameAdd.data.away_team",
+      "GameAdd.data.game_date",
+      "GameAdd.data.home_score",
+      "GameAdd.data.home_team",
+      "GameAdd.data.venue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Executives_addPlayer",
+  "id": "Executives - Player Relations_addGame",
   "deleted": false,
-  "gitSyncId": "643d8ffee993e222fcdffa9e_643d9798e993e222fcdffab4"
+  "gitSyncId": "643d8ffee993e222fcdffa9e_643e07a31716a1646f03812e"
 }
