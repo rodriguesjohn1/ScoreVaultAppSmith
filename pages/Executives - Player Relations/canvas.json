@@ -121,7 +121,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681924984064,
+              "columnUpdatedAt": 1681936176511,
               "originalBottomRow": 111,
               "defaultSelectedRowIndices": [
                 0
@@ -129,7 +129,6 @@
               "widgetName": "GetPlayers",
               "defaultPageSize": 0,
               "columnOrder": [
-                "player_id",
                 "first_name",
                 "last_name",
                 "age",
@@ -140,7 +139,8 @@
                 "assists",
                 "nationality",
                 "team_name",
-                "international_team"
+                "international_team",
+                "player_id"
               ],
               "dynamicPropertyPathList": [
                 {
@@ -456,7 +456,7 @@
                 },
                 "player_id": {
                   "allowCellWrapping": false,
-                  "index": 11,
+                  "index": 9,
                   "width": 150,
                   "originalId": "player_id",
                   "id": "player_id",
@@ -475,7 +475,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "Player ID",
+                  "label": "player_id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{GetPlayers.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player_id\"]))}}",
@@ -1593,7 +1593,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "IconButton2",
-                      "onClick": "{{closeModal()}}",
+                      "onClick": "{{closeModal('Player_Details')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -2669,7 +2669,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "originalTopRow": 16,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 20,
               "buttonVariant": "TERTIARY"
             }
           ]
